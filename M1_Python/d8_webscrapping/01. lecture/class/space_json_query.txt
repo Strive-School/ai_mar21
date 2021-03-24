@@ -1,0 +1,2 @@
+<class 'dict'>
+{'message': 'success', 'request': {'altitude': 100, 'datetime': 1563154340, 'latitude': 37.78, 'longitude': -122.41, 'passes': 5}, 'response': [{'duration': 579, 'risetime': 1563165995}, {'duration': 641, 'risetime': 1563171750}, {'duration': 536, 'risetime': 1563177645}, {'duration': 482, 'risetime': 1563183551}, {'duration': 583, 'risetime': 1563189370}]}
