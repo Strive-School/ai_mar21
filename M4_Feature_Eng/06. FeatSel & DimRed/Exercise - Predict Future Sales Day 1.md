@@ -67,9 +67,9 @@ The most important step at reproducing this score is correctly aggregating daily
 4. Fill NaNs with zeros: `.fillna(0)`
 5. Limit your predictions to the range [0,...,20]: `.clip(lower=0, upper=20)`
 
-If you do it correctly, you'll get precisely 1.16777 on the public leaderboard.
 
 
-## Submit on Eduflow
+## Submit on Kaggle
 
-When you finish your notebook, push it to your Github repo, copy the link and submit it to the eduflow task.
+If you do it correctly, you'll get precisely **1.16777** on the public leaderboard.
+
