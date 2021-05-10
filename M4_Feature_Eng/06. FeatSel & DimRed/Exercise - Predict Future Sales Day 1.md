@@ -19,11 +19,9 @@ So each day we are going to code our new knowledge from the lecture to this comp
 
 ## Exercise 1: Download the data
 
-Go to the [data tab](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/data) of the competition, and download the data. We are going to work on our local computers, but we can work on [kaggle notebooks](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/notebooks) aswell because we have 30 hours of free GPU usage each week.
+Go to the [data tab](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/data) of the competition, and download the original data (russian version). If you dont know russian, please **download the [English version](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/discussion/208082)**.
 
-> ### Download the [English version](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/discussion/208082) if ypu dont know russian.
-
-Please, if you are new to kaggle watch [this video](https://www.youtube.com/watch?v=sEJHyuWKd-s)
+We are going to work on our local computers, but we can work on [kaggle notebooks](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/notebooks) aswell because we have 30 hours of free GPU usage each week. Please, if you are new to kaggle watch [this video](https://www.youtube.com/watch?v=sEJHyuWKd-s).
 
 
 
@@ -68,8 +66,7 @@ The most important step at reproducing this score is correctly aggregating daily
 5. Limit your predictions to the range [0,...,20]: `.clip(lower=0, upper=20)`
 
 
+#### Submit on Kaggle
 
-## Submit on Kaggle
-
-If you do it correctly, you'll get precisely **1.16777** on the public leaderboard.
+If you do it correctly, you'll get precisely a RMSE of **1.16777** on the public leaderboard.
 
