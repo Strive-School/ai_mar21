@@ -6,9 +6,9 @@
 Today we will work only with the `shops.csv`. Each shop
 
 
-## Exercise 1: Detect repeted shops
+## Exercise 1: Detect repeated shops
 
-There are 4 repeted shops (8 different shop_ids). Look at the shop_name and find repeated shops. This is important because need to remove duplicated shops in the future.
+There are 4 repeated shops (8 different shop_ids). Look at the shop_name and find repeated shops. This is important because need to remove duplicated shops in the future.
 
 Please complete this:
 
@@ -18,13 +18,13 @@ Please complete this:
 - Ids of repepeated shop 4: ____ and ____
 
 
-## Exercise 2: Pysical vs Online shop
+## Exercise 2: Physical vs Online shop
 
-Create a binary column to determint if the shop is online or not.
+Create a binary column to determine if the shop is online or not.
 
 ## Exercise 3: Get the cities
 
-Extract the city name of each shop. Cities apears on the first word of the shop name.
+Extract the city name of each shop. Cities appear as the first word of the shop name.
 
 
 ## Exercise 4: Latitude & Longitude
