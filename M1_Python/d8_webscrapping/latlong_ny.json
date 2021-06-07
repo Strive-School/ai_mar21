@@ -1,0 +1,1 @@
+{"message": "success", "request": {"altitude": 100, "datetime": 1622584397, "latitude": 40.71, "longitude": -74.0, "passes": 5}, "response": [{"duration": 565, "risetime": 1622586645}, {"duration": 632, "risetime": 1622592469}, {"duration": 637, "risetime": 1622598278}, {"duration": 290, "risetime": 1622604211}, {"duration": 495, "risetime": 1622652747}]}
