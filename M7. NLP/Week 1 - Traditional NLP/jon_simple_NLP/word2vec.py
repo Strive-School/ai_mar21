@@ -41,3 +41,5 @@ def train(num_epochs = 100, lr = 0.001):
             W2.grad.data.zero_()
         if epoch % 10 == 0:    
             print(f'Loss at epoch {epoch}: {loss_val/len(dataset)}')
+            
+train(num_epochs = 100, lr = 0.001)
