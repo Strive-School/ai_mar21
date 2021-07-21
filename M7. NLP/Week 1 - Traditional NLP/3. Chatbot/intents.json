@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good evening",
+        "Good night"
+      ],
+      "responses": [
+        "Hey!",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "What's up?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "Which hamburgers do you have?",
+        "What kinds of courses are there?",
+        "What do you cook?",
+        "Can I order a coke?",
+        "I'm hungry",
+        "We're starving",
+        "I'd like to have a pizza"
+      ],
+      "responses": [
+        "We sell pizza, hamburgers and tacos",
+        "We have coke and juice as beverage",
+        "May we offer you a slice of hot pizza?",
+        "Do you like tacos?",
+        "We're here for you."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Apple Pay or Paypal?",
+        "Can I pay with cash?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal",
+        "We prefer not using cash."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 15-20 min, depending on the traffic",
+        "The deliverer will be there in a few minutes. Stay hungry!",
+        "Don't worry, we're very quick!"
+      ]
+    },
+    {
+      "tag": "miscellaneous",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Let me laugh!"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why do bees have sticky hair? Because they use honeycombs",
+        "Hear about the new restaurant called 'Karma'? There's no menu: you get what you deserve."
+      ]
+    }
+  ]
+}
